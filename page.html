@@ -22,10 +22,10 @@
 
         <script>
             var palabra_pasada = new URLSearchParams(window.location.search).get('data');
-            
+    
             function setup() {
                 createCanvas(windowWidth, windowHeight).position(0, 0).style("z-index", -1);
-                background('#eceff1');
+                background('#DEF9F5');
                 textSize(42);
             }
                         
@@ -33,6 +33,7 @@
                 fill(155,170,180);
                 text(palabra_pasada, mouseX, mouseY);
             }
+            //palabra pasada funciona porque le pusimos el get data arriba. 
 
         </script>
     </body>
